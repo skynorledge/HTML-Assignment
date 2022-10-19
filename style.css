@@ -26,16 +26,22 @@ main {
 .box-img1{
   height: 150px;
   background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
 }
 
 .box-img2{
   height: 150px;
   background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
 }
 
 .box-img3{
   height: 150px;
   background-image: url(img/flow03.png);
+  background-position:bottom;
+  background-size: cover;
 }
 
 footer {
