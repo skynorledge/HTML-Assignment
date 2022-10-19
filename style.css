@@ -47,10 +47,6 @@ main {
   background-color: #eee;
 }
 
-.C-box:last-child {
-  margin-right: 0;
-}
-
 
 .box-img1 {
   height: 150px;
@@ -88,4 +84,26 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width:768px) {
+
+main {
+    width: 90%;
+    margin:50px auto;
+    display: block;
+  }
+.A-box {
+  width:90%;
+  margin:20px auto;
+}
+.B-box {
+  width:90%;
+  margin:20px auto;
+}
+.C-box {
+  width:90%;
+  margin:20px auto;
+}
+
 }
